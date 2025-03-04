@@ -1,0 +1,117 @@
+*{margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{background: linear-gradient(90deg, #00FFCA 0.3%, #05BFDB 19.91%, #088395 49.11%, #0A4D68 98.73%);}
+img{max-width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.navbar-custom{
+    background-color: rgba(209, 209, 209, 0.603);
+    backdrop-filter:  blur(20px);
+}
+
+
+
+ .navbar-brand{color: #A259FF;
+    text-align: center;
+    text-shadow: 0px 4px 4px #F5EFE7;
+    font-family: "Zen Dots"!important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+    letter-spacing: 3.6px;}
+
+   .Sign-Up{border-radius: 20px;
+    background: #A259FF;
+    box-shadow: 0px 4px 4px 0px #0A4D68;
+    padding: 0px 30px;
+    color: #F5EFE7;
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+} 
+.Explore{border-radius: 20px;
+    background: #A259FF;
+    box-shadow: 0px 4px 4px 0px #0A4D68;
+    padding: 5px 30px;
+    color: #F5EFE7;
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */}
+.right h1{color: var(--White, #FFF);
+
+    /* H1 - Work Sans */
+    font-family: "Work Sans";
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 73.7px */
+    text-transform: capitalize;}
+
+    .right h5{ color: var(--White, #FFF);
+
+        /* Body Text- Work Sans */
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 35.2px */
+        text-transform: capitalize;
+
+    }  
+    .banner .left .img1{width: 371px;
+        height: 424px;
+        transform: rotate(-15deg);
+        position: absolute;
+        top: 10;
+        left:10;
+        flex-shrink: 0;
+        border-radius: 47px;}
+    .banner .left .img2{ 
+        height: 424px;
+   
+        position: absolute;
+        top: 50;
+        left:50;
+        flex-shrink: 0;
+        border-radius: 47px;}
+
+  .banner .left .img3{ 
+        height: 424px;
+      
+        position: absolute;
+        top: 100;
+        left:100;
+        flex-shrink: 0;
+        border-radius: 47px;}
+        .release{padding-block: 200px;}
+        
+ .comedown{
+    .rounded-4{ background-color: rgba(209, 209, 209, 0.603);
+        backdrop-filter:  blur(20px);
+        margin-block: 50px;
+    }
+ }
+//  card
+.card-img-overlay{ background-color: rgba(209, 209, 209, 0.603);
+    backdrop-filter:  blur(20px);
+    margin-block: 50px;}
+
+.swiper-container {
+    width: 750px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 9999;
+  }
+  .swiper-slide{
+    width: 300px;
+  }
